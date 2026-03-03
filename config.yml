@@ -1,0 +1,29 @@
+# Configuração do Plugin StarAntiDrop
+# Plugin desenvolvido por EuIsaac
+
+# Itens que não podem ser dropados (use nomes de items do Minecraft)
+# Exemplos: DIAMOND, GOLD_INGOT, IRON_INGOT, EMERALD, etc.
+ItensBloqueados:
+  - BEDROCK
+
+# requerer confirmação para dropar itens bloqueados
+# Se true, o jogador precisa confirmar o drop
+# Para dropar, o jogador deve apertar Q duas vezes
+confirmardropar: false
+
+# Mensagens do plugin (em português)
+Mensagens:
+  item_bloqueado: "&c[StarAntiDrop] Este item está bloqueado de ser dropado!"
+  drop_confirmado: "&a[StarAntiDrop] Item dropado com sucesso!"
+  drop_cancelado: "&c[StarAntiDrop] Drop cancelado. Apertar Q novamente para dropar."
+  precisa_confirmar: "&e[StarAntiDrop] Atenção! Este item está bloqueado. &nApertar Q novamente para confirmar o drop."
+  item_adicionado: "&a[StarAntiDrop] Item adicionado à lista de bloqueados: {item}"
+  item_removido: "&c[StarAntiDrop] Item removido da lista de bloqueados: {item}"
+  config_recaregada: "&a[StarAntiDrop] Configuração recarregada com sucesso!"
+  sem_permissao: "&c[StarAntiDrop] Você não tem permissão para usar este comando!"
+
+# Permissões do plugin
+Permissoes:
+  starantidrop.bypass: "Permite bypassar o bloqueio de drop"
+  starantidrop.admin: "Permissão de admin do plugin"
+

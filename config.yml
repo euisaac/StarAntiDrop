@@ -3,6 +3,7 @@
 
 # Itens que não podem ser dropados (use nomes de items do Minecraft)
 # Exemplos: DIAMOND, GOLD_INGOT, IRON_INGOT, EMERALD, etc.
+# Bloquear todos itens use TODOS ou ALL
 ItensBloqueados:
   - BEDROCK
 

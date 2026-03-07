@@ -11,19 +11,32 @@ ItensBloqueados:
 # Para dropar, o jogador deve apertar Q duas vezes
 confirmardropar: false
 
+# Configurações de atualizações
+Atualizacao:
+  # Verificar se há atualizações disponíveis (requer conexão com internet)
+  Verificar: true
+  # Notificar automaticamente admins quando houver nova versão
+  Notificar: true
+  # Intervalo em minutos para verificar atualizações automaticamente
+  # Padrão: 180 minutos (3 horas)
+  IntervaloMinutos: 180
+
 # Mensagens do plugin (em português)
 Mensagens:
   item_bloqueado: "&c[StarAntiDrop] Este item está bloqueado de ser dropado!"
   drop_confirmado: "&a[StarAntiDrop] Item dropado com sucesso!"
   drop_cancelado: "&c[StarAntiDrop] Drop cancelado. Apertar Q novamente para dropar."
-  precisa_confirmar: "&e[StarAntiDrop] Atenção! Este item está bloqueado. &nApertar Q novamente para confirmar o drop."
+  precisa_confirmar: "&e[StarAntiDrop] Atenção! Este item está bloqueado. <nl>&nApertar Q novamente para confirmar o drop."
   item_adicionado: "&a[StarAntiDrop] Item adicionado à lista de bloqueados: {item}"
   item_removido: "&c[StarAntiDrop] Item removido da lista de bloqueados: {item}"
   config_recaregada: "&a[StarAntiDrop] Configuração recarregada com sucesso!"
   sem_permissao: "&c[StarAntiDrop] Você não tem permissão para usar este comando!"
+  confirmacao_ativada: "&a[StarAntiDrop] Confirmação de drop ativada!"
+  confirmacao_desativada: "&c[StarAntiDrop] Confirmação de drop desativada!"
 
 # Permissões do plugin
 Permissoes:
   starantidrop.bypass: "Permite bypassar o bloqueio de drop"
   starantidrop.admin: "Permissão de admin do plugin"
+  starantidrop.toggle: "Permite ativar/desativar a confirmação de drop"
 
